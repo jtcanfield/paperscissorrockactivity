@@ -4,7 +4,7 @@ function rps (player, computer) {
   if (player === computer){
     return "Tie"
   }
-  if (player == 'rock' && computer == 'paper'){
+  if (player == 'rock' && computer == 'scissors'){
     return "Player Wins"
   } else if (player == 'rock'){
     return 'Computer Wins'
