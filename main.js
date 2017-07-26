@@ -1,6 +1,7 @@
 // Rock Paper Scissors Function
-function rps () {
+function rps (player, computer) {
   // write code here
+  
 }
 
 
