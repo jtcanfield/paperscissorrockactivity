@@ -1,7 +1,24 @@
 // Rock Paper Scissors Function
 function rps (player, computer) {
   // write code here
-  
+  if (player === computer){
+    return "Tie"
+  }
+  if (player == 'rock' && computer == 'paper'){
+    return "Player Wins"
+  } else if (player == 'rock'){
+    return 'Computer Wins'
+  }
+  if (player == 'paper' && computer == 'rock'){
+    return "Player Wins"
+  } else if (player == 'paper'){
+    return 'Computer Wins'
+  }
+  if (player == 'scissors' && computer == 'paper'){
+    return "Player Wins"
+  } else if (player == 'scissors'){
+    return 'Computer Wins'
+  }
 }
 
 
